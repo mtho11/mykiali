@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overview page renders initial layout 1`] = `
+<Fragment>
+  <Connect(OverviewToolbar)
+    displayMode={1}
+    onError={[Function]}
+    onRefresh={[Function]}
+    setDisplayMode={[Function]}
+    sort={[Function]}
+    statefulFilterRef={
+      Object {
+        "current": null,
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f5f5f5",
+      }
+    }
+  >
+    <EmptyState
+      className="fu1tihc"
+      variant="full"
+    >
+      <Title
+        headingLevel="h5"
+        size="lg"
+        style={
+          Object {
+            "marginTop": "50px",
+          }
+        }
+      >
+        No unfiltered namespaces
+      </Title>
+      <EmptyStateBody>
+        Either all namespaces are being filtered or the user has no permission to access namespaces.
+      </EmptyStateBody>
+    </EmptyState>
+  </div>
+  <Modal
+    actions={
+      Array [
+        <Unknown
+          onClick={[Function]}
+          variant="secondary"
+        >
+          Cancel
+        </Unknown>,
+        <Unknown
+          onClick={[Function]}
+          variant="danger"
+        >
+          
+        </Unknown>,
+      ]
+    }
+    appendTo={<body />}
+    ariaDescribedById=""
+    className=""
+    hideTitle={false}
+    isFooterLeftAligned={false}
+    isLarge={false}
+    isOpen={false}
+    isSmall={true}
+    onClose={[Function]}
+    showClose={true}
+    title="Confirm  Traffic Policies ?"
+  >
+    Namespace  has existing AuthorizationPolicy objects. Do you want to  them ?
+  </Modal>
+</Fragment>
+`;
