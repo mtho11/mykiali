@@ -11,6 +11,7 @@ A UI for the Kiali Istio Observability Project
 == Technologies
 * React.js
 * Redux
+* Typescript
 
 == Quick Start
 [source,shell]
