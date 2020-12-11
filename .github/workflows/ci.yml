@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Kiali CI
+name: Kiali-UI CI
 
 # Controls when the action will run.
 on:
@@ -27,6 +27,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: yarn install
+      - run: yarn pretty-quick --check --verbose --branch origin/master
       - run: yarn build:dev
       - run: yarn test
 
